@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Table page</title>
+</head>
+
+<body>
+    <a href="index.html">Home</a> | <a href="list.html"> List Page</a>
+    <br />
+
+    <p>
+    <table style="background-color: rgb(85, 211, 98); border:black 1px solid;">
+        <thead>
+            <tr>
+                <th></th>
+                <th scope="col" style="width: 100px;">Monday </th>
+                <th scope="col" style="width: 100px;">Tuesday </th>
+                <th scope="col" style="width: 100px;">Wednesday </th>
+                <th scope="col" style="width: 100px;">Thursday </th>
+                <th scope="col" style="width: 100px;">Friday </th>
+                <th scope="col" style="width: 100px;">Saturday </th>
+                <th scope="col" style="width: 100px;">Sunday </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Wake up-9am</th>
+                <td colspan="7">Home</td>
+            </tr>
+            <tr>
+                <th scope="row">9am-10am</th>
+                <td rowspan="4">Work</td>
+                <td>Home</td>
+                <td rowspan="4">Work</td>
+                <td>Home</td>
+                <td rowspan="8" colspan="2">Work</td>
+                <td rowspan="9">Free Day</td>
+            </tr>
+            <tr>
+                <th scope="row">10am-11am</th>
+                <td rowspan="2">Class</td>
+                <td rowspan="2">Class</td>
+            </tr>
+            <tr>
+                <th scope="row">11am-12pm</th>
+            </tr>
+            <tr>
+                <th scope="row">12pm-1pm</th>
+                <td rowspan="6">Home</td>
+                <td rowspan="6">Home</td>
+            </tr>
+            <tr>
+                <th scope="row">1pm-2pm</th>
+            </tr>
+            <tr>
+                <th scope="row">2pm-3pm</th>
+                <td rowspan="2">Class</td>
+                <td rowspan="2">Class</td>
+            </tr>
+            <tr>
+                <th scope="row">3pm-4pm</th>
+            </tr>
+            <tr>
+                <th scope="row">4pm-5pm</th>
+                <td>Sit around at the student center</td>
+                <td rowspan="2">Home</td>
+            </tr>
+            <tr>
+                <th scope="row">5pm-End of Day</th>
+                <td>Board game Club</td>
+                <td colspan="2">Go Home</td>
+            </tr>
+        </tbody>
+    </table>
+    </p>
+</body>

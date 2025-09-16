@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Page</title>
+</head>
+
+<body>
+    <form action="forms.html" method="GET">
+        <p>Username:
+            <input type="text" name="username" size="15" maxlength="30" />
+        </p>
+        <p>Password:
+            <input type="text" name="password" size="15" maxlength="30" />
+        </p>
+    </form>
+
+    <form action="forms.html" method="GET">
+        <p>What did you Think</p>
+        <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+    </form>
+
+    <form action="forms.html" method="GET">
+        <p>Select your favorite genre:
+            <br />
+            <input type="radio" name="genre" value="rock" /> Rock
+            <input type="radio" name="genre" value="pop" /> Pop
+            <input type="radio" name="genre" value="jazz" /> Jazz
+        </p>
+    </form>
+
+    <form action="forms.html" method="GET">
+        <p>Select your favorite music service:
+            <br />
+            <input type="checkbox" name="service" value="itunes" /> iTunes
+            <input type="checkbox" name="service" value="lastfm" /> Lastfm
+            <input type="checkbox" name="service" value="spotify" /> Spotify
+        </p>
+    </form>
+
+    <form action="forms.html" method="GET">
+        <p>what device do you listen to music on?</p>
+        <select name="device">
+            <option value="ipod">iPod</option>
+            <option value="radio">Radio</option>
+            <option value="computer">Computer</option>
+        </select>
+    </form>
+
+    <form action="forms.html" method="POST">
+        <p>Upload your song in a WAV format:</p>
+        <input type="file" name="song" /> <br />
+        <input type="submit" value="upload">
+    </form>
+</body>
+
+</html>
