@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <!-- Contact Form Section -->
+    <section>
+        <h1>Get in Touch!</h1>
+        <p>I'd love to hear from you. Please fill out the form below and I'll get back to you as soon as possible.</p>
+        <form action="#" method="GET">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="subject">Subject:</label><br>
+            <select id="subject" name="subject">
+                <option value="general">General Inquiry</option>
+                <option value="collaboration">Project Collaboration</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+        </form>
+    </section>
+
+    <!-- Survey Section -->
+    <section>
+        <h2>Quick Survey</h2>
+        <p>We value your feedback! Please take a moment to answer this short survey.</p>
+        <form action="#" method="GET">
+            <label for="find">How did you find my portfolio?</label><br>
+            <select id="find" name="find">
+                <option value="google">Google Search</option>
+                <option value="social">Social Media</option>
+                <option value="referral">Referral</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label>Rate your overall experience on my site:</label><br>
+            <input type="radio" id="rate1" name="experience" value="1">
+            <label for="rate1">1</label>
+            <input type="radio" id="rate2" name="experience" value="2">
+            <label for="rate2">2</label>
+            <input type="radio" id="rate3" name="experience" value="3">
+            <label for="rate3">3</label>
+            <input type="radio" id="rate4" name="experience" value="4">
+            <label for="rate4">4</label>
+            <input type="radio" id="rate5" name="experience" value="5">
+            <label for="rate5">5</label><br><br>
+
+            <label for="comments">Any additional comments?</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="30"></textarea><br><br>
+
+            <button type="submit">Submit Survey</button>
+            <button type="reset">Reset Survey</button>
+        </form>
+    </section>
+</body>
+
+</html>
